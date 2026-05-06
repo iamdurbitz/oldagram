@@ -38,7 +38,7 @@ function renderPosts(index){
                 <p><span class="name">${posts[index].name}</span><br>${posts[index].location}</p>
             </div>
             <div>
-                <img src="${posts[index].post}">
+                <img class="post-img" src="${posts[index].post}">
             </div>
             <div class="icons">
                 <img class="icon" src="images/icon-heart.png">

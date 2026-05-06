@@ -18,7 +18,8 @@ header, .post-header, .post-footer, .icons{
 }
 
 .container, .section{
-    width: 375px;
+    width: 100%;
+    max-width: 375px;
     margin: 0 auto;
 }
 
@@ -79,4 +80,8 @@ header .avatar{
 
 .icon:hover, .icon:focus{
     opacity: 50%;
+}
+
+.post-img{
+    width: 100%;
 }
